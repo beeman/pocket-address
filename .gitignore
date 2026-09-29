@@ -45,3 +45,11 @@ app-example
 # generated native folders
 /ios
 /android
+
+# release signing — credentials live in ~/.gradle/gradle.properties or the environment, never in the repo
+*.aab
+*.apk
+*.keystore
+gradle.properties.local
+keystore.properties
+signing.properties
