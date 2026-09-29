@@ -3,5 +3,5 @@ import { AppIdentity, createSolanaMainnet, SolanaCluster } from '@wallet-ui/reac
 export class AppConfig {
   static cluster: SolanaCluster = createSolanaMainnet({ url: 'https://api.mainnet.solana.com' })
   static identity: AppIdentity = { name: 'Pocket Address' }
-  static privacyPolicyUrl = 'https://beeman.github.io/sandbox-bitterbal/privacy-policy/'
+  static privacyPolicyUrl = 'https://beeman.github.io/pocket-address/privacy-policy/'
 }

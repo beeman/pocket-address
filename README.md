@@ -2,6 +2,13 @@
 
 Connect a wallet with Mobile Wallet Adapter and show its public key as a large QR code, so someone else can scan it to pay you.
 
+<p>
+  <a href="docs/screenshots/1-welcome.png"><img src="docs/screenshots/1-welcome.png" alt="Welcome screen with the Connect Wallet button" width="200" /></a>
+  <a href="docs/screenshots/2-qr-code.png"><img src="docs/screenshots/2-qr-code.png" alt="Connected, showing the address as a QR code" width="200" /></a>
+  <a href="docs/screenshots/3-copied.png"><img src="docs/screenshots/3-copied.png" alt="The Copied toast after tapping Copy" width="200" /></a>
+  <a href="docs/screenshots/4-share.png"><img src="docs/screenshots/4-share.png" alt="The Android share sheet with the full address" width="200" /></a>
+</p>
+
 ## Development
 
 ```bash
@@ -59,3 +66,7 @@ adb install -r android/app/build/outputs/apk/release/app-release.apk
 ## Branding
 
 The SVG sources and exported PNGs are in [`assets/branding/`](assets/branding). After editing an SVG, run `assets/branding/export.sh` (needs `rsvg-convert`, from `brew install librsvg`) to re-export the PNGs.
+
+## Website
+
+The website, privacy policy and terms of service live in [`docs/`](docs) and are served by GitHub Pages at https://beeman.github.io/pocket-address/. The store screenshots are in [`docs/screenshots/`](docs/screenshots).

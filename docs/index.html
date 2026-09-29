@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pocket Address</title>
+    <link rel="icon" href="/pocket-address/favicon.png" />
+    <style>
+      body {
+        color: #111;
+        font-family: system-ui, sans-serif;
+        line-height: 1.6;
+        margin: 3rem auto;
+        max-width: 42rem;
+        padding: 0 1rem;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      nav {
+        display: flex;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .icon {
+        border-radius: 22%;
+      }
+
+      .screenshots {
+        display: grid;
+        gap: 0.75rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 2rem 0 0;
+      }
+
+      .screenshots img {
+        border-radius: 0.75rem;
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+
+      @media (max-width: 32rem) {
+        .screenshots {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img class="icon" src="/pocket-address/icon.png" alt="" width="96" height="96" />
+      <h1>Pocket Address</h1>
+      <p>Your Solana address, ready to share.</p>
+      <p>
+        Connect your wallet with Mobile Wallet Adapter and Pocket Address shows your public key as a large QR code, so
+        someone else can scan it to pay you. Copy or share the full address with one tap. The app never asks you to sign
+        anything.
+      </p>
+      <p>Android package: <code>io.github.beeman.pocketaddress</code></p>
+      <section class="screenshots" aria-label="Screenshots">
+        <a href="/pocket-address/screenshots/1-welcome.png"
+          ><img
+            src="/pocket-address/screenshots/1-welcome.png"
+            alt="Welcome screen with the Connect Wallet button"
+            width="1344"
+            height="2992"
+            loading="lazy"
+        /></a>
+        <a href="/pocket-address/screenshots/2-qr-code.png"
+          ><img
+            src="/pocket-address/screenshots/2-qr-code.png"
+            alt="Connected, showing the address as a QR code"
+            width="1344"
+            height="2992"
+            loading="lazy"
+        /></a>
+        <a href="/pocket-address/screenshots/3-copied.png"
+          ><img
+            src="/pocket-address/screenshots/3-copied.png"
+            alt="The Copied toast after tapping Copy"
+            width="1344"
+            height="2992"
+            loading="lazy"
+        /></a>
+        <a href="/pocket-address/screenshots/4-share.png"
+          ><img
+            src="/pocket-address/screenshots/4-share.png"
+            alt="The Android share sheet with the full address"
+            width="1344"
+            height="2992"
+            loading="lazy"
+        /></a>
+      </section>
+      <nav aria-label="Links">
+        <a href="solanadappstore://details?id=io.github.beeman.pocketaddress">dApp Store</a>
+        <a href="/pocket-address/privacy-policy/">Privacy Policy</a>
+        <a href="/pocket-address/terms-of-service/">Terms of Service</a>
+      </nav>
+    </main>
+  </body>
+</html>

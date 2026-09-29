@@ -22,7 +22,15 @@ Finance (Tools also fits)
 
 ## Privacy policy
 
-https://beeman.github.io/sandbox-bitterbal/privacy-policy/
+https://beeman.github.io/pocket-address/privacy-policy/
+
+## Terms of service
+
+https://beeman.github.io/pocket-address/terms-of-service/
+
+## Website
+
+https://beeman.github.io/pocket-address/
 
 ## Screenshots to capture
 
